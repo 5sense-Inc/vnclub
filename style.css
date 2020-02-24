@@ -1093,7 +1093,7 @@ body.stretched .container-fullwidth {
 body.stretched #header.full-header .container {
   width: 100%;
   max-width: none;
-  padding: 0 30px; }
+  padding: 0 0; }
   @media (max-width: 991.98px) {
     #header.full-header .container {
       padding: 0 15px !important;
@@ -1139,8 +1139,7 @@ body.stretched #header.full-header .container {
   margin-right: 40px; }
   #header.full-header #logo {
     padding-right: 30px;
-    margin-right: 30px;
-    border-right: 1px solid #eeeeee; }
+    margin-right: 30px; }
   #logo a {
     display: block;
     color: #444444; }
@@ -15515,3 +15514,31 @@ body:not(.no-transition) #wrapper,
 
 .lead {
   font-size: 0.9rem; }
+
+#movie_block h3 {
+  color: #2CA9E1;
+  font-size: 1.6rem; }
+
+#program_block h2 {
+  color: #2CA9E1;
+  font-size: 2.0rem; }
+
+#program_block .divcenter {
+  color: #333333;
+  font-size: 1.1rem; }
+
+#request_block h2 {
+  color: #747474;
+  font-size: 2.0rem; }
+
+#club_block .color02 {
+  background: #003466; }
+
+#club_block .button {
+  width: 240px; }
+
+#support_block h3 {
+  color: #003466;
+  font-size: 2.0rem; }
+
+/*# sourceMappingURL=style.css.map */

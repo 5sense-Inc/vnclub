@@ -43,6 +43,11 @@
 }
 
 #movie_block{
+    .pic{
+        @include media-breakpoint-down(xs) {
+            padding-top: 200px;
+        }    
+    }
     h3{
         color: #2CA9E1;
         font-size: 1.6rem;
@@ -65,6 +70,45 @@
         color: #747474;
         font-size: 2.0rem;
     }
+    h3.number01{
+        color: #003466;
+        font-size: 1.4rem;
+        @include media-breakpoint-down(xs) {
+            font-size: 1.2rem;
+        }
+    }
+    p.number01{
+        color: #003466;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .col-lg-1{
+        @include media-breakpoint-down(xs) {
+            text-align: center;
+        }
+    }
+    h3.number02{
+        color: #2CA9E1;
+        font-size: 1.4rem;
+    }
+    h4.number02{
+        color: #2CA9E1;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    h3.number03{
+        color: #F88D3B;
+        font-size: 1.4rem;
+    }
+    h4.number03{
+        color: #F88D3B;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    p.number03 span{
+        color: #444444;
+        font-weight: bold;
+    }
 }
 
 #club_block{
@@ -80,5 +124,67 @@
     h3{
         color: #003466;
         font-size: 2.0rem;
+    }
+}
+
+.section{
+    @include media-breakpoint-down(xs) {
+        margin: 30px 0;
+        padding: 30px 0;
+    }
+}
+.container{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    @include media-breakpoint-down(xs) {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+
+.sp{
+    display: none;
+}
+.pc{
+    display: block;
+}
+@media (max-width: 640px) {
+    .sp{
+        display: block;
+    }
+    .pc{
+        display: none;
+    }
+    .slider-caption h2{
+        line-height: 1.6;
+        font-size:1.2rem !important;
+    }
+    #content{
+        .content-wrap {
+            padding: 0 0;
+        }
+        #first_block{
+            h1{
+                font-size: 20px;
+            }
+        }
+        #program_block{
+            .divcenter {
+                font-size: 0.9rem;
+            }
+        }
+        #support_block{
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .testi-content p{
+            font-size: 17px;
+        }
+    }
+    .col-padding {
+        padding: 20px;
     }
 }

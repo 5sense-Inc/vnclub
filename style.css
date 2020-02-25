@@ -1508,7 +1508,6 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
-  text-transform: uppercase !important;
   margin-bottom: 15px;
   color: #444444;
   padding: 0 !important;
@@ -12463,7 +12462,7 @@ body:not(.device-touch) .team-overlay {
 .heading-block h4 {
   margin-bottom: 0;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: unset;
   letter-spacing: 1px;
   color: #333333; }
   .heading-block h1 > span:not(.nocolor),
@@ -15515,6 +15514,10 @@ body:not(.no-transition) #wrapper,
 .lead {
   font-size: 0.9rem; }
 
+@media (max-width: 575.98px) {
+  #movie_block .pic {
+    padding-top: 200px; } }
+
 #movie_block h3 {
   color: #2CA9E1;
   font-size: 1.6rem; }
@@ -15531,6 +15534,44 @@ body:not(.no-transition) #wrapper,
   color: #747474;
   font-size: 2.0rem; }
 
+#request_block h3.number01 {
+  color: #003466;
+  font-size: 1.4rem; }
+  @media (max-width: 575.98px) {
+    #request_block h3.number01 {
+      font-size: 1.2rem; } }
+
+#request_block p.number01 {
+  color: #003466;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+@media (max-width: 575.98px) {
+  #request_block .col-lg-1 {
+    text-align: center; } }
+
+#request_block h3.number02 {
+  color: #2CA9E1;
+  font-size: 1.4rem; }
+
+#request_block h4.number02 {
+  color: #2CA9E1;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+#request_block h3.number03 {
+  color: #F88D3B;
+  font-size: 1.4rem; }
+
+#request_block h4.number03 {
+  color: #F88D3B;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+#request_block p.number03 span {
+  color: #444444;
+  font-weight: bold; }
+
 #club_block .color02 {
   background: #003466; }
 
@@ -15540,5 +15581,46 @@ body:not(.no-transition) #wrapper,
 #support_block h3 {
   color: #003466;
   font-size: 2.0rem; }
+
+@media (max-width: 575.98px) {
+  .section {
+    margin: 30px 0;
+    padding: 30px 0; } }
+
+.container {
+  padding-left: 40px !important;
+  padding-right: 40px !important; }
+  @media (max-width: 575.98px) {
+    .container {
+      padding-left: 20px !important;
+      padding-right: 20px !important; } }
+
+.sp {
+  display: none; }
+
+.pc {
+  display: block; }
+
+@media (max-width: 640px) {
+  .sp {
+    display: block; }
+  .pc {
+    display: none; }
+  .slider-caption h2 {
+    line-height: 1.6;
+    font-size: 1.2rem !important; }
+  #content .content-wrap {
+    padding: 0 0; }
+  #content #first_block h1 {
+    font-size: 20px; }
+  #content #program_block .divcenter {
+    font-size: 0.9rem; }
+  #content #support_block img {
+    max-width: 100%;
+    height: auto; }
+  #content .testi-content p {
+    font-size: 17px; }
+  .col-padding {
+    padding: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
